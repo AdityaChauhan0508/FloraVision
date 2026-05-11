@@ -1,47 +1,87 @@
-# FloraVision Designs
+# 🌿 FloraVision
 
-A plant-focused ecommerce UI built with TanStack Start and Vite. The app showcases hero merchandising, trendy plant highlights, top-selling cards, customer testimonials, and an O2 plant collection section with a cart drawer experience.
+A pixel-perfect, fully responsive plant e-commerce product listing page built with React, TypeScript, TanStack Router, and Tailwind CSS. Designed to replicate a dark-themed Figma design with clean, reusable components and smooth interactions.
 
-## Features
+🔗 **Live Demo:** https://flora-vision-murex.vercel.app/
+---
 
-- Hero banner with featured product and call-to-action
-- Trendy plant cards with alternating layouts
-- Top-selling grid with add-to-cart controls
-- O2 plant collection carousel/section
-- Testimonials and social proof
-- Cart drawer with quantity updates and remove actions
+## 📸 Preview
 
-## Tech Stack
+> A premium dark-themed plant store featuring hero banner, trending plants, top selling grid, customer reviews, O₂ plants carousel, and a newsletter footer.
 
-- React 19 + TypeScript
-- TanStack Start, Router, and Query
-- Vite build tooling
-- Tailwind CSS v4
-- Radix UI primitives + shadcn/ui components
-- Lucide icons
+---
 
-## Scripts
+## ✨ Features
 
-- `npm run dev` - start the local dev server
-- `npm run build` - production build
-- `npm run build:dev` - build in development mode
-- `npm run preview` - preview the production build
-- `npm run lint` - lint the codebase
-- `npm run format` - format files with Prettier
+- **Sticky Navbar** — transparent on top, blurred on scroll, with cart badge and mobile drawer
+- **Hero Banner** — full-bleed background plant image with floating testimonial card and product card
+- **Trending Plants Section** — two large featured plant cards with price and CTA
+- **Top Selling Plants Grid** — responsive 3-column grid with 6 plant cards
+- **Customer Reviews** — 3 testimonial cards with avatar, star rating, and review text
+- **O₂ Plants Carousel** — auto-cycling slides with prev/next navigation and dot indicators
+- **Cart Drawer** — slide-in side drawer with quantity controls, remove, clear, and subtotal
+- **Newsletter Footer** — 3-column layout with social links and subscribe form
+- **Fully Responsive** — seamless layout from 320px mobile to 1440px desktop
+- **Accessible** — semantic HTML, ARIA labels, keyboard navigation, focus traps in modals
 
-## Project Structure
+---
 
-- `src/routes/` - route entries (home page is in `index.tsx`)
-- `src/components/site/` - page-level UI sections (hero, cards, footer, navbar)
-- `src/components/ui/` - reusable UI primitives
-- `src/data/plants.ts` - product, testimonial, and O2 slide data
-- `src/assets/` - local images used across sections
-- `src/styles.css` - global styles
+## 🛠️ Tech Stack
 
-## Data and Images
+| Technology | Purpose 
+| React 19 | UI components |
+| TypeScript | Type safety |
+| TanStack Router | Client-side routing |
+| TanStack Query | Server state management |
+| Tailwind CSS v4 | Styling and responsiveness |
+| Vite 7 | Build tool and dev server |
+| Radix UI | Accessible UI primitives |
+| Lucide React | Icons |
+| Shadcn/ui | Component library base |
+| Vercel | Deployment |
 
-Product cards and section content come from `src/data/plants.ts`. Swap images by importing files from `src/assets/` and updating the relevant data entries or component props.
+## 🚀 Getting Started
 
-## Development Notes
+### Prerequisites
 
-TanStack Start server entry and error handling are configured in `src/start.ts` and `src/server.ts`.
+- Node.js 18+ or Bun
+- Git
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AdityaChauhan0508/FloraVision.git
+
+# Navigate into the project
+cd FloraVision
+
+# Install dependencies
+npm install
+# or with bun
+bun install
+```
+
+### Development
+
+```bash
+npm run dev
+# or
+bun run dev
+```
+
+
+
+
+
+## 👤 Author
+
+**Aditya Chauhan**
+- GitHub: [@AdityaChauhan0508](https://github.com/AdityaChauhan0508)
+- LinkedIn: [linkedin.com/in/aditya-chauhan](https://www.linkedin.com/in/aditya-chauhan-016986247/)
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
