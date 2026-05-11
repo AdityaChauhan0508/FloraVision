@@ -11,6 +11,7 @@ import { SectionHeading } from "@/components/site/SectionHeading";
 import { CartDrawer, type CartItem } from "@/components/site/CartDrawer";
 import { topSellingPlants, testimonials } from "@/data/plants";
 import trendyPlant1 from "@/assets/trendy-plant-1.jpg";
+import deskDecorImage from "@/assets/DeskDecor.jpg";
 import trendyPlant2 from "@/assets/trendy-plant-2.jpg";
 
 export const Route = createFileRoute("/")({
@@ -66,7 +67,7 @@ function Index() {
     id: "trendy-2",
     name: "Desk Succulent",
     price: 399,
-    image: trendyPlant2,
+    image: deskDecorImage,
   };
 
   const o2Item: ItemInput = {

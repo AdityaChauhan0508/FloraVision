@@ -1,10 +1,14 @@
+import cactusImage from "@/assets/cactus.jpg";
+import trendyPlant1 from "@/assets/trendy-plant-1.jpg";
+import swissCheeseImage from "@/assets/SwisscheesePlant.jpg";
+
 export const topSellingPlants = [
   {
     id: 1,
     name: "Aglaonema plant",
     price: 300,
     description: "The Aglaonema plant, commonly known as Chinese Evergreen, is known for its attractive foliage and ease of care",
-    image: "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=400",
+    image: trendyPlant1,
   },
   {
     id: 2,
@@ -18,14 +22,14 @@ export const topSellingPlants = [
     name: "Cactus",
     price: 259,
     description: "It is known for their ability to thrive in arid environments",
-    image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=400",
+    image: cactusImage,
   },
   {
     id: 4,
     name: "Swiss cheese Plant",
     price: 400,
     description: "It is a popular tropical houseplant known for its distinctive, perforated leaves",
-    image: "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?w=400",
+    image: swissCheeseImage,
   },
   {
     id: 5,
@@ -70,7 +74,7 @@ export const testimonials = [
 export const o2Slides = [
   {
     title: "We Have Small And Best O2 Plants Collection's",
-    image: "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=600",
+    image: trendyPlant1,
     p1: "Oxygen-producing plants, often referred to as 'O2 plants,' are those that release oxygen into the atmosphere through the process of photosynthesis.",
     p2: "Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.",
   },
